@@ -223,6 +223,18 @@ export const defaultRenameConfig = [
   'macos/**/*.xcodeproj/project.pbxproj',
   'macos/**/*.xcodeproj/xcshareddata/xcschemes/*.xcscheme',
   'macos/**/*.xcworkspace/contents.xcworkspacedata',
+
+  // Windows
+  'windows/*.sln',
+  'windows/**/*.cpp',
+  'windows/**/*.h',
+  'windows/**/*.idl',
+  'windows/**/*.xaml',
+  'windows/**/Package.appxmanifest',
+  'windows/**/*.wapproj',
+  'windows/**/*.vcxproj',
+  'windows/**/*.vcxproj.filters',
+  'windows/**/index.windows.bundle',
 ] as const;
 
 /**
